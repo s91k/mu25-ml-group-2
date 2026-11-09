@@ -1,0 +1,16 @@
+[workspace]
+authors = ["Simon <s91k@hotmail.com>"]
+channels = ["conda-forge"]
+name = "mu25-ml-group-2"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.15.2,<3.16"
+jupyterlab = ">=4.6.6,<5"
+matplotlib = ">=3.11.2,<4"
+seaborn = ">=0.13.2,<0.14"
+scikit-learn = ">=1.9.1,<2"
+kagglehub = ">=1.0.3,<2"
